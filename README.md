@@ -39,7 +39,8 @@ An ERC20 token with permit functionality for testing the PermitSwap contract.
 - **WolfToken (WTK)**: `0xd6e1afe5ca8d00a2efc01b89997abe2de47fdfaf`
 - **PermitSwap**: `0xB0f05d25e41FbC2b52013099ED9616f1206Ae21B`
 
-### Network Configuration:
-- **Chain**: Lisk Sepolia Testnet
-- **RPC**: https://rpc.sepolia-api.lisk.com
-- **Uniswap V2 Router**: `0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D`
+**Verification**: 
+[View PermitSwap on Etherscan](https://sepolia-blockscout.lisk.com/address/0xB0f05d25e41FbC2b52013099ED9616f1206Ae21B)
+
+[View WTK on Etherscan](https://sepolia-blockscout.lisk.com/address/0xd6e1afe5ca8d00a2efc01b89997abe2de47fdfaf)
+

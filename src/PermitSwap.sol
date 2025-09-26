@@ -9,15 +9,8 @@ interface IERC20 {
 }
 
 interface IERC20Permit {
-    function permit(
-        address owner,
-        address spender,
-        uint256 value,
-        uint256 deadline,
-        uint8 v,
-        bytes32 r,
-        bytes32 s
-    ) external;
+    function permit(address owner, address spender, uint256 value, uint256 deadline, uint8 v, bytes32 r, bytes32 s)
+        external;
 }
 
 interface IUniswapV2Router02 {
@@ -54,11 +47,7 @@ contract PermitSwap {
         path[1] = tokenOut;
 
         IUniswapV2Router02(UNISWAP_ROUTER).swapExactTokensForTokens(
-            amountIn,
-            minAmountOut,
-            path,
-            recipient,
-            block.timestamp
+            amountIn, minAmountOut, path, recipient, block.timestamp
         );
     }
 }
